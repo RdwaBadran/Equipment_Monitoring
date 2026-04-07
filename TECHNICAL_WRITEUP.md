@@ -10,9 +10,9 @@ The system processes video footage of construction sites frame-by-frame, automat
 
 The pipeline has three independent microservices:
 
-- **CV Service** — reads frames, runs YOLOv8 detection + tracking, optical flow motion analysis, rule-based activity classification, and state machine time tracking, then sends results to Kafka.
+- **CV Service** - reads frames, runs YOLOv8 detection + tracking, optical flow motion analysis, rule-based activity classification, and state machine time tracking, then sends results to Kafka.
 - **Consumer Service** — reads from Kafka and writes all events to TimescaleDB.
-- **UI Service** — serves a FastAPI REST API and live MJPEG video stream; a browser dashboard polls every 2 seconds.
+- **UI Service** - serves a FastAPI REST API and live MJPEG video stream; a browser dashboard polls every 2 seconds.
 
 ---
 
