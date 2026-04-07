@@ -122,10 +122,10 @@ UI API, live frame, and output video.
 
 Open **http://localhost:8000** to see:
 
-- **Live Video Feed** — annotated MJPEG stream with bounding boxes, state labels, and utilization %
-- **Machine Status Cards** — per-machine ACTIVE/INACTIVE state, activity, working time, idle time, and full idle stop history
-- **Utilization Timeline Chart** — utilization % over video time
-- **Live Kafka Feed** — the raw JSON payload streaming from the CV service through Kafka
+- **Live Video Feed** -annotated MJPEG stream with bounding boxes, state labels, and utilization %
+- **Machine Status Cards** - per-machine ACTIVE/INACTIVE state, activity, working time, idle time, and full idle stop history
+- **Utilization Timeline Chart** - utilization % over video time
+- **Live Kafka Feed** - the raw JSON payload streaming from the CV service through Kafka
 
 ---
 
