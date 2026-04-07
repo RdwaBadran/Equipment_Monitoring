@@ -1,6 +1,5 @@
 # export_project.py
 # Bundles all important project files into one text file
-# so you can share the entire project in one paste.
 
 from pathlib import Path
 
