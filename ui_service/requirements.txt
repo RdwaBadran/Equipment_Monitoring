@@ -1,0 +1,10 @@
+# streamlit==1.35.0
+# plotly==5.22.0
+pandas==2.2.2
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.30
+kafka-python==2.0.2
+python-dotenv==1.0.1
+
+fastapi==0.111.0
+uvicorn==0.30.1

@@ -1,0 +1,26 @@
+# requirements.txt (project root)
+# Single unified dependency file covering all three microservices.
+# Install with:  pip install -r requirements.txt
+
+# ── Computer Vision ───────────────────────────────────────────────────────────
+ultralytics>=8.3.0          # YOLOv8 detection + BoT-SORT tracking
+opencv-python==4.9.0.80     # video I/O, optical flow, frame drawing
+numpy==1.26.4               # array operations
+
+# ── Tracking ──────────────────────────────────────────────────────────────────
+lapx==0.5.5                 # linear assignment (required by BoT-SORT)
+
+# ── Message Broker ────────────────────────────────────────────────────────────
+kafka-python==2.0.2         # Kafka producer + consumer
+
+# ── Database ──────────────────────────────────────────────────────────────────
+psycopg2-binary==2.9.9      # PostgreSQL / TimescaleDB adapter
+sqlalchemy==2.0.30          # ORM + query builder
+
+# ── Web API & UI ──────────────────────────────────────────────────────────────
+fastapi==0.111.0            # REST API framework
+uvicorn==0.30.1             # ASGI server for FastAPI
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1        # load .env files
+requests==2.31.0            # HTTP client (used by download_videos.py fallback)

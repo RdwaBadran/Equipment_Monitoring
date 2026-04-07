@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+videos/
+*.pt
+project_export.txt
+*.log
+*.env

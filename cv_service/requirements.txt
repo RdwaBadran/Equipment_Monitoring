@@ -1,0 +1,17 @@
+# Computer Vision
+ultralytics>=8.3.0
+opencv-python==4.9.0.80
+numpy==1.26.4
+
+# Tracking
+lapx==0.5.5
+
+# Kafka
+kafka-python==2.0.2
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.30
+
+# Utilities
+python-dotenv==1.0.1
