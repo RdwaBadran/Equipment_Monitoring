@@ -52,7 +52,7 @@ Video File
 ### 1. Clone and create virtual environment
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/RdwaBadran/Equipment_Monitoring>
 cd equipment-monitor
 python -m venv venv
 
